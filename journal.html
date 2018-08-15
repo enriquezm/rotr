@@ -1,0 +1,25 @@
+---
+layout: page
+title: Journal
+description: All my scribbles and thoughts from the trails.
+permalink: /journal/
+---
+<section class="p5 blog-content">
+	<div>
+		<h2>All Posts</h2>
+		<p class="bg-light">My thoughts and ideas.</p>
+    <div class="race-list">
+		{% for post in site.posts %}
+		<a href="{{ post.url }}">
+			<div class="race-block">
+				<div class="race-icon color1"></div>
+				<div class="race-meta">
+					<p>{{ post.title }}</p>
+					<p class="sub-text">{{ post.lead }}</p>
+				</div>
+			</div>
+		</a>
+		{% endfor %}
+		</div>
+	</div>
+</section>

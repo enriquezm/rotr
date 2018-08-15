@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<section class="p5 landing-hero">
+	<div>
+		<h1>Rotr.</h1>
+		<p class="bg-light">A runner's blog.</p>
+	</div>
+</section>
+<section class="p5 about-section">
+		{% include about.html %}
+</section>
+<section class="p5 blog-content">
+	<div>
+		<h2>Latest Posts</h2>
+		<p class="bg-light">My thoughts and ideas.</p>
+    <div class="race-list">
+		{% for post in site.posts %}
+		<a href="{{ post.url }}">
+			<div class="race-block">
+				<div class="race-icon color1"></div>
+				<div class="race-meta">
+					<p>{{ post.title }}</p>
+					<p class="sub-text">{{ post.lead }}</p>
+				</div>
+			</div>
+		</a>
+		{% endfor %}
+		</div>
+		<a class="link-loud" href="/journal/">View More</a>
+	</div>
+	<div>
+		<h2>Races</h2>
+		<p class="bg-light">Past and future races.</p>
+		<div class="race-list">
+			<div class="race-block">
+				<div class="race-icon color3"></div>
+				<div class="race-meta">
+					<p>Bootleg Beatdown</p>
+					<p class="date"><s>Jun. 23rd, 2018</s></p>
+				</div>
+			</div>
+			<div class="race-block">
+				<div class="race-icon color4"></div>
+				<div class="race-meta">
+					<p>Moonlight Madness</p>
+					<p class="date">Aug. 25th, 2018</p>
+				</div>
+			</div>
+		</div>
+		<!-- <a href="#">Past Races</a> -->
+	</div>
+</section>

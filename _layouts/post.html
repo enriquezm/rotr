@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<section class="post-landing p5">
+	<span>{{ page.category }}</span>
+	<h1 class="post-title">{{ page.title }}</h1>
+  <p>{{ page.lead }}</p>
+	<p class="post-meta">Posted: {{ page.date | date: "%b %d, %Y" }}</p>
+</section>
+<section class="post-content p5">
+  {{ content }}
+</section>
