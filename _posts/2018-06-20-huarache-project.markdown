@@ -2,7 +2,7 @@
 layout: post
 title:  "Huarache Project"
 date:   2018-06-20 19:42:18 -0700
-lead: "Jumping into the world of running with sandals."
+lead: "Made my own running sandals, and tried trail running in them."
 category: Barefoot
 ---
 ## The Start
