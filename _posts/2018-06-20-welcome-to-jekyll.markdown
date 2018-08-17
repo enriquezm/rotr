@@ -5,4 +5,6 @@ date:   2018-06-20 19:42:18 -0700
 lead: "Jumping into the world of running with sandals."
 category: Barefoot
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## The Start
+
+I wanted to take a step back in time and try to understand the origin of a shoe from its early time of use. After hearing about the Taraumara, and seeing how strong they were when it came to running, it only felt natural to try it out for myself.
