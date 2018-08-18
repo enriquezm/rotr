@@ -5,7 +5,12 @@ $style3: #6C7A89;
 $salmon: #ff7675;
 $purple: #686de0;
 $green: #21A179;
+
 $charcoal: #364156;
+$jelly-bean: #D66853;
+$steel-teal: #55828B;
+$dark-sea-green: #87BBA2;
+$tigers-eye: #5386E4;
 
 body {
 	font-family: 'Lato', sans-serif;
@@ -15,7 +20,7 @@ a {
 	text-decoration: none;
 	color: grey;
 	&:hover {
-		color: $purple;
+		color: $jelly-bean;
 		text-decoration: underline;
 	}
 	&.btn {
@@ -50,13 +55,6 @@ nav {
 	.social-links {
 		> a {
 			padding: 5px 10px;
-			border: 1px solid gray;
-			border-radius: 25px;
-			&:hover {
-				border: 1px solid $purple;
-				color: rgba(255, 255, 255, 0.7);
-				background-color: $purple;
-			}
 		}
 	}
 }
@@ -98,7 +96,7 @@ footer {
 	}
 }
 .post-landing {
-	background-color: $salmon;
+	background-color: $dark-sea-green;
 	color: white;
 	span {
 		border: 1px solid rgba(255, 255, 255, 0.3);
@@ -111,7 +109,7 @@ footer {
 	}
 }
 .about-section {
-	background-color: $deep-brown;
+	background-color: $charcoal;
 	color: white;
 
 }
@@ -149,7 +147,7 @@ footer {
 	align-items: space-between;
 	.race-block {
 		margin: 0.75em 0;
-		width: 100%;
+		width: 90%;
 		display: flex;
 		justify-content: flex-start;
 			div.race-icon {
@@ -158,10 +156,10 @@ footer {
 				text-align: center;
 				color: white;
 				&.color1 {
-          background-color: #FE5F55;
+          background-color: $dark-sea-green;
         }
         &.color2 {
-          background-color: #5386E4;
+          background-color: $tigers-eye;
         }
         &.color3 {
           background-color: #E08E45;
@@ -180,19 +178,49 @@ footer {
 			s {
 				color: $salmon;
 			}
+			.post-title {
+				padding: 0;
+				margin: 0;
+				font-size: 16px;
+				a {
+					color: black;
+					&:hover {
+						color: $jelly-bean;
+					}
+				}
+			}
 			.date {
-				color: $purple;
+				margin: 0;
+				font-size: 14px;
+				color: rgba(0, 0, 0, 0.4);
 			}
       .sub-text {
-        color: rgba(0, 0, 0, 0.5);
+        color: rgba(0, 0, 0, 0.7);
       }
+			span {
+				width: 20%;
+				padding: 2px 5px;
+				border: 1px solid $dark-sea-green;
+				color: $dark-sea-green;
+				border-radius: 3px;
+				margin-bottom: 10px;
+				font-size: 12px;
+			}
+			// .btn {
+			// 	margin: 0;
+			// 	padding: 5px 5px;
+			// 	font-size: 14px;
+			// 	border-radius: 3px;
+			// 	text-align: center;
+			// 	background-color: $jelly-bean;
+			// }
 		}
 	}
 }
 
 /** Post Template Styling **/
 .single-page-banner {
-	background-color: $deep-brown;
+	background-color: $charcoal;
 	h1 {
 		color: white;
 	}
@@ -216,6 +244,11 @@ footer {
 			width: 100%;
 			margin-bottom: 20px;
 		}
+	}
+	.race-block {
+		border: 2px solid #EDF4FC;
+		border-left: none;
+		padding: 10px 0;
 	}
   .social-section-content {
     flex-direction: column;

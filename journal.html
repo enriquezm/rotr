@@ -7,18 +7,18 @@ permalink: /journal/
 <section class="p5 blog-content">
 	<div>
 		<h2 class="mt-0">All Posts</h2>
-		<p class="bg-light">My thoughts and ideas.</p>
-    <div class="race-list">
+		<p class="bg-light">My writings.</p>
+		<div class="race-list">
 		{% for post in site.posts %}
-		<a href="{{ post.url }}">
 			<div class="race-block">
 				<div class="race-icon color1"></div>
 				<div class="race-meta">
-					<p>{{ post.title }}</p>
+					<span>{{ post.category }}</span>
+					<p class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+					<p class="date">Written: {{ post.date | date: "%b %d, %y"  }}</p>
 					<p class="sub-text">{{ post.lead }}</p>
 				</div>
 			</div>
-		</a>
 		{% endfor %}
 		</div>
 	</div>
