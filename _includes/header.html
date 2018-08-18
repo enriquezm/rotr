@@ -1,9 +1,12 @@
 <nav class="px-5">
 	<div class="brand"><a href="/">ROTR</a></div>
-	<!-- <div class="page-links">
-		<a href="#">Home</a>
-		<a href="#">About</a>
-	</div> -->
+	<div class="page-links">
+		{% for page in site.pages %}
+			{% if page.title %}
+			<a href="{{ page.url }}">{{ page.title }}</a>
+			{% endif %}
+		{% endfor %}
+	</div>
 	<div class="social-links">
     <a href="https://instagram.com/{{ site.ig_username }}"><i class="fab fa-instagram "></i> Instagram</a>
   </div>
