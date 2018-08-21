@@ -33,12 +33,13 @@ layout: default
 		<h2>Events</h2>
 		<p class="bg-light">Races, self-supported runs, challenges, etc.</p>
 		<div class="race-list">
-			{% for event in site.events %}
+			{% for event in site.data.events %}
 			<div class="race-block">
-				<div class="race-icon color3"></div>
+				<div class="race-icon color4"></div>
 				<div class="race-meta">
 					<p>{{ event.title }}</p>
-					<p class="date"><s>{{ event.date | date: "%b %d, %y" }}</s></p>
+					<p class="date">{{ event.date }}</p>
+					<p class="sub-text">{{ event.lead }}</p>
 				</div>
 			</div>
 			{% endfor %}
