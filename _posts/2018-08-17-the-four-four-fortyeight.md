@@ -9,15 +9,22 @@ published: true
 
 ## The Idea
 
-Run 4 miles, every 4 hours, for 48 straight hours ... and doing so without crying.
+- Run 4 miles
+- Every 4 hours
+- For 48 straight hours ... and doing so without crying.
 
-## Why?
+## The Reason
 
-My main goal in my running is to run as far as I can for as long as I can. I figured the only way to do so would be by conditioning the mind and getting used to being comfortable with uncomfortable.
+- Build up mental toughness
+- Get used to being uncomfortable
+- Training for ultra running
 
 ## The Plan
 
-The plan is to meet up with my buddy and have him pace me throughout the challenge. We're mostly likely going to camp out near the trail. At the camp I'll be eating and sleeping (as much as I can).
+- Meet up with friend (also will try this challenge out)
+- Set up camp by trail
+- Run trail like a mad man
+- Document EVERYTHING
 
 ## The Proof
 
