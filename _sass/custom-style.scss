@@ -123,9 +123,11 @@ footer {
 	}
 	ul {
 		li {
-			font-size: 18px;
-			color: rgba(0, 0, 0, 0.6);
+			color: rgba(0, 0, 0, 0.8);
 		}
+	}
+	a {
+		color: $jelly-bean;
 	}
 }
 .about-section {
@@ -312,6 +314,11 @@ footer {
 		}
 		img {
 			width: 100%;
+		}
+		ul {
+			li {
+				font-size: 18px;
+			}
 		}
 	}
 	.race-block {
