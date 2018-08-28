@@ -40,6 +40,12 @@ After some more thought, I made version 2 of my running sandals.
 
 ![Version two homemade sandals](/assets/images/posts/IMG_2172.jpg)
 
-This actually worked out pretty well. I ran about 15 miles in these with no major issues. After my body started to catch up with all the sandal running, I started to feel stronger and more efficient with my running.
+What I liked about the new sandals:
+- They were more comfortable
+- They had more toe space (toes hung over on previous model)
+
+What I didn't like:
+- After a long run, the back of my heel hurt (cord cutting into skin).
+
 
 What came to my surprise were the pains in my knees and right ankle started to go away. I realized, running in these flat sandals required my body to use so many more muscles. Muscles that haven't been used in years. It naturally forced your body to have more of a mid-foot strike instead of a heavy heel strike.
