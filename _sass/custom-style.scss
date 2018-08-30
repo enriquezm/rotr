@@ -10,7 +10,14 @@ $charcoal: #364156;
 $jelly-bean: #D66853;
 $steel-teal: #55828B;
 $dark-sea-green: #87BBA2;
-$tigers-eye: #5386E4;
+
+$tigers-eye: #1789FC;
+$tigers-eye-light: #63affd;
+$lime-green: #32E875;
+
+$caribbean-green: #00BD9D;
+$eucalyptus: #28C99B;
+$deep-tuscan-red: #664147;
 
 body {
 	font-family: 'Lato', sans-serif;
@@ -23,13 +30,18 @@ a {
 		color: $jelly-bean;
 		text-decoration: underline;
 	}
-	&.btn {
-		border: 1px solid $salmon;
-		background-color: $salmon;
+}
+a.btn {
+		border: 1px solid rgba(255, 255, 255, 0.7);;
 		color: white;
-		margin: 0.5em;
-		padding: 1em 2em;
-	}
+		padding: 10px 15px;
+		border-radius: 25px;
+		&:hover {
+			background-color: white;
+			border: 1px solid white;
+			color: $caribbean-green;
+			transition: background-color 0.5s;
+		}
 }
 ul {
 	li {
@@ -66,7 +78,7 @@ nav {
 section {
 	p {
 		&.bg-dark {
-			color: rgba(255, 255, 255, 0.6);
+			color: rgba(255, 255, 255, 0.8);
 		}
 		&.bg-light {
 			color: rgba(0, 0, 0, 0.6);
@@ -74,6 +86,7 @@ section {
 	}
 }
 footer {
+	background-color: #EDF4FC;
   display: flex;
   > div {
     margin: 0 auto;
@@ -101,7 +114,7 @@ footer {
 	}
 }
 .post-landing {
-	background-color: $dark-sea-green;
+	background-color: $caribbean-green;
 	color: white;
 	span {
 		border: 1px solid rgba(255, 255, 255, 0.3);
@@ -130,10 +143,12 @@ footer {
 		color: $jelly-bean;
 	}
 }
-.about-section {
-	background-color: $charcoal;
+.about-section, .social-banner {
+	background: linear-gradient(to bottom right, $caribbean-green, $eucalyptus);
 	color: white;
-
+}
+.social-banner {
+	background-color: #009B81;
 }
 .social-section {
 	background-color: $style3;
@@ -178,7 +193,7 @@ footer {
 				text-align: center;
 				color: white;
 				&.color1 {
-          background-color: $dark-sea-green;
+          background-color: $caribbean-green;
         }
         &.color2 {
           background-color: $tigers-eye;
@@ -198,7 +213,7 @@ footer {
 				margin-top: 0px;
 			}
 			s {
-				color: $salmon;
+				color: $jelly-bean;
 			}
 			.post-title {
 				padding: 0;
@@ -214,7 +229,7 @@ footer {
 			.date {
 				margin: 0;
 				font-size: 14px;
-				color: rgba(0, 0, 0, 0.4);
+				color: goldenrod;
 			}
       .sub-text {
         color: rgba(0, 0, 0, 0.7);
@@ -222,8 +237,8 @@ footer {
 			span {
 				width: 50%;
 				padding: 2px 5px;
-				border: 1px solid $dark-sea-green;
-				color: $dark-sea-green;
+				border: 1px solid $caribbean-green;
+				color: $caribbean-green;
 				border-radius: 3px;
 				margin-bottom: 10px;
 				font-size: 12px;
@@ -242,12 +257,12 @@ footer {
 
 /** Post Template Styling **/
 .single-page-banner {
-	background-color: $charcoal;
+	background: linear-gradient(to bottom right, $caribbean-green, $eucalyptus);
 	h1 {
 		color: white;
 	}
 	p {
-		color: rgba(255, 255, 255, 0.7);
+		color: rgba(255, 255, 255, 0.9);
 	}
 }
 

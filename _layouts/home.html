@@ -21,7 +21,7 @@ layout: default
 				<div class="race-meta">
 					<span>{{ post.category }}</span>
 					<p class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
-					<p class="date">Written: {{ post.date | date: "%b %d, %y"  }}</p>
+					<p class="date">{{ post.date | date: "%b %d, %y"  }}</p>
 					<p class="sub-text">{{ post.lead }}</p>
 				</div>
 			</div>
@@ -34,6 +34,7 @@ layout: default
 		<p class="bg-light">Races, self-supported runs, challenges, etc.</p>
 		<div class="race-list">
 			{% for event in site.data.events %}
+			{% if event.live %}
 			<div class="race-block">
 				<div class="race-icon color4"></div>
 				<div class="race-meta">
@@ -42,6 +43,7 @@ layout: default
 					<p class="sub-text">{{ event.lead }}</p>
 				</div>
 			</div>
+			{% endif %}
 			{% endfor %}
 		</div>
 		<!-- <a href="#">Past Races</a> -->
