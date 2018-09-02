@@ -21,6 +21,7 @@ $deep-tuscan-red: #664147;
 
 body {
 	font-family: 'Lato', sans-serif;
+	font-weight: 400;
   margin: 0;
 }
 a {
@@ -218,7 +219,8 @@ footer {
 			.post-title {
 				padding: 0;
 				margin: 0;
-				font-size: 16px;
+				font-size: 18px;
+				font-weight: 900;
 				a {
 					color: black;
 					&:hover {
@@ -340,6 +342,10 @@ footer {
 		border: 2px solid #EDF4FC;
 		border-left: none;
 		padding: 10px 0;
+	}
+	.social-banner {
+		display: flex;
+		flex-direction: column;
 	}
   .social-section-content {
     flex-direction: column;
