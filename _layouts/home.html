@@ -27,7 +27,9 @@ layout: default
 			</div>
 		{% endfor %}
 		</div>
-		<a class="link-loud" href="/journal/">View More</a>
+		<div class="link-box">
+			<a class="link-loud" href="/journal/">View More</a>
+		</div>
 	</div>
 	<div>
 		<h2>Events</h2>
@@ -38,7 +40,7 @@ layout: default
 			<div class="race-block">
 				<div class="race-icon color4"></div>
 				<div class="race-meta">
-					<p>{{ event.title }}</p>
+					<p class="post-title">{{ event.title }}</p>
 					<p class="date">{{ event.date }}</p>
 					<p class="sub-text">{{ event.lead }}</p>
 				</div>
