@@ -277,6 +277,17 @@ footer {
 	}
 }
 
+/** Instafeed styling **/
+div#instafeed {
+	display: flex;
+	.ig-item {
+		width: 25%;
+		.ig-image {
+			width: 80%;
+		}
+	}
+}
+
 // Mobile screens
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 768px) {
