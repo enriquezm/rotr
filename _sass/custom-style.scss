@@ -178,8 +178,12 @@ footer {
 	div {
 		width: 100%;
 	}
-	.link-loud {
-		color: $purple;
+	.link-box {
+		display: flex;
+		justify-content: flex-end;
+		.link-loud {
+			color: $purple;
+		}
 	}
 }
 .race-list {
