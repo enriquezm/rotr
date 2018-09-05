@@ -179,8 +179,11 @@ footer {
 		width: 100%;
 	}
 	.link-box {
+		padding: 5px 10px;
 		display: flex;
-		justify-content: flex-end;
+		justify-content: center;
+		border: 1px solid $purple;
+		border-radius: 3px;
 		.link-loud {
 			color: $purple;
 		}
