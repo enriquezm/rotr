@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Moonlight Madness Half-Marathon Aftermath"
+title:  "Thoughts: Moonlight Madness Half-Marathon"
 date:   2018-08-27 19:42:18 -0700
 lead: "My experience and thoughts on Moonlight Madness"
 category: "Race"
