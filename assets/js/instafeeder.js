@@ -6,6 +6,3 @@ var feed = new Instafeed({
     template: '<a class="ig-item" href="{{link}}"><img class="ig-image" src="{{image}}" /></a>'
 });
 feed.run();
-
-
-// clientId: 'c81e1c60f1be4b0aa1a5f4fa2a6b689f'
